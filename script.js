@@ -27,6 +27,10 @@ function toRoman(num) {
   }
 
   return result;
+}
 
-}
-}
+// Example Tests
+console.log(toRoman(14));   // XIV
+console.log(toRoman(798));  // DCCXCVIII
+console.log(toRoman(4));    // IV
+console.log(toRoman(9));    // IX
